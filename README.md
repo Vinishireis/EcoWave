@@ -14,18 +14,6 @@ This project consists of a contact page for the EcoWave company, featuring conta
 - **animation_cards_script.js**: Script for animations on the page.
 - **site.js**: Script for additional site functionalities.
 
-## Project Structure
-├── css/
-│ ├── contact-style.css
-│ └── bootstrap-grid-new.css
-├── js/
-│ ├── animation_cards_script.js
-│ └── site.js
-├── img/
-│ └── logo.png
-├── index.html
-├── contact.html
-└── README.md
 
 ## How to Use
 
