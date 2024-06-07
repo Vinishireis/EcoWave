@@ -35,6 +35,6 @@ Contributions are welcome! Feel free to submit pull requests with improvements o
 - [Munir Ayoub](https://github.com/MunirAyoub)
 - [Vinishireis](https://github.com/Vinishireis)
 
-![image](https://github.com/Vinishireis/EcoWave/assets/95651095/a3d6e265-7834-4ca0-93c2-43d0e0810442)
+![image](https://github.com/Vinishireis/EcoWave/assets/95651095/4a6c51ad-837a-46ca-a193-c0d6c367ed3c)
 
 
