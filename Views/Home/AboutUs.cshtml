@@ -24,9 +24,9 @@
             <img class="logo" src="/logo.png" alt="Logo">
             <ul class="nav-links">
                 <i class="uil uil-times navCloseBtn"></i>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li>@Html.ActionLink("Inicio","Index","Home");</li>
+                <li>@Html.ActionLink("Contato","Contact","Home")</li>
+                <li>@Html.ActionLink("Sobre","AboutUs","Home")</li>
             </ul>
             <i class="uil uil-search search-icon" id="searchIcon"></i>
             <div class="search-box">

@@ -23,9 +23,9 @@
         <img class="logo" src="/Cópia de Texto do seu parágrafo.png" alt="Logo">
         <ul class="nav-links">
             <i class="uil uil-times navCloseBtn"></i>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Quem somos?</a></li>
-            <li><a href="../Views/Home/Contact.cshtml">Contato</a></li>
+            <li>@Html.ActionLink("Inicio","Index","Home");</li>
+            <li>@Html.ActionLink("Contato","Contact","Home")</li>
+            <li>@Html.ActionLink("Sobre","AboutUs","Home")</li>
         </ul>
         <i class="uil uil-search search-icon" id="searchIcon"></i>
         <div class="search-box">
@@ -51,7 +51,7 @@
                                 <i class="material-icons material-icons-outlined md-22">location_on</i>
                                 <div class="footer-contact-info">
                                     <a href="#">
-                                        Alameda Nothman
+                                        Av. Paulista 1106, São Paulo
                                     </a>
                                 </div>
                             </li>
@@ -65,12 +65,12 @@
                             <li>
                                 <i class="material-icons material-icons-outlined md-22">email</i>
                                 <div class="footer-contact-info">
-                                    <a href="mailto:mail@example.com">mail@example.com</a>
-                                    <a href="mailto:info@example.com">info@example.com</a>
+                                    <a href="Ecowave@gmail.com">Ecowave@gmail.com</a>
+                                    <a href="munirjmayoub.jobs@gmail.com">munirjmayoub.jobs@gmail.com</a>
                                 </div>
                             </li>
                             <li>
-                                <i class="material-icons material-icons-outlined md-22">schedule</i>
+                                <i class="material-icons material-icons-outlined md-22">Horario</i>
                                 <div class="footer-contact-info">
                                     <p>Seg - Sex: 9:00 - 18:00</p>
                                 </div>

@@ -24,14 +24,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 
-// builder.Services.AddDbContext<OracleDbContext>(options =>
-// {
-//     options.UseOracle(builder.Configuration.GetConnectionString("OracleConnection"));
-// });
-//
-//ao usar esse comando da erro no local host por motivos de que nao sei :(
-
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
