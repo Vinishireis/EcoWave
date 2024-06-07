@@ -8,7 +8,7 @@ This project consists of a contact page for the EcoWave company, featuring conta
 
 ## Contents
 
-- **index.html**: Project's main page.
+- **index.cshtml**: Project's main page.
 - **contact.css**: CSS styles for the contact page.
 - **bootstrap-grid-new.css**: Bootstrap styles for responsive layout.
 - **animation_cards_script.js**: Script for animations on the page.
