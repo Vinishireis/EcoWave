@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CECOWAVE_0040GMAIL_002ECOM/@EntryIndexedValue">wwwroot\Ecowave@gmail.com</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CMUNIRJMAYOUB_002EJOBS_0040GMAIL_002ECOM/@EntryIndexedValue">wwwroot\munirjmayoub.jobs@gmail.com</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CPRIVACY_002DPOLICY_002EPHP/@EntryIndexedValue">wwwroot\privacy-policy.php</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CTERMS_002DAND_002DCONDITIONS_002EPHP/@EntryIndexedValue">wwwroot\terms-and-conditions.php</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CECOWAVE_0040GMAIL_002ECOM/@EntryIndexedValue">wwwroot\Ecowave@gmail.com</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CMUNIRJMAYOUB_002EJOBS_0040GMAIL_002ECOM/@EntryIndexedValue">wwwroot\munirjmayoub.jobs@gmail.com</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CPRIVACY_002DPOLICY_002EPHP/@EntryIndexedValue">wwwroot\privacy-policy.php</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CTERMS_002DAND_002DCONDITIONS_002EPHP/@EntryIndexedValue">wwwroot\terms-and-conditions.php</s:String></wpf:ResourceDictionary>

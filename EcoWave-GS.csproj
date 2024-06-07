@@ -28,4 +28,8 @@
       <Compile Remove="Controllers\AboutUsController.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="EcoWave-GS.csproj.DotSettings.user" />
+    </ItemGroup>
+
 </Project>
