@@ -1,4 +1,4 @@
-using EcoWave_GS.Persistence;
+using EcoWave_GS.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
