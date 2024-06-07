@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoWave-GS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf4c552e602c780c2017fc49cc884701880f95df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68efa505e0011e57f40e732eba59d184787a1b84")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoWave-GS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoWave-GS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
