@@ -7,13 +7,19 @@ namespace EcoWave_GS.Models;
 
 public class MdContatos
 {
-    [Required]
+    [Required(ErrorMessage = "O campo Nome é obrigatorio")]
+    [Display(Name = "Nome")]
     public string Nome { get; set; }
-    
+
     [Key]
+    public int Id { get; set; }
+    
+    [Required(ErrorMessage = "Email é obrigatorio.")]
+    [EmailAddress(ErrorMessage = "Deve ser um email real")]
+    [Display(Name = "Email")]
     public string Email { get; set; }
     
-    [Required]
+    [Required(ErrorMessage = "Numero é obrigatorio")]
     public PhoneAttribute Numero { get; set;  }
      
     [Required]
