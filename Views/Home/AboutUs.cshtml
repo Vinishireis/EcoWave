@@ -8,10 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 
     <!--=============== REMIXICONS ===============-->
-    <link rel="stylesheet" href="css/bootstrap-grid-new.css">
+    <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="css/about-style.css">
+    <link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/css/bootstrap-grid-new.css">
+    <link rel="stylesheet" href="/css/contact-style.css">
+    <link rel="stylesheet" href="/css/site.css">
 
     <title>Eco Wave - Sobre Nós</title>
 </head>
@@ -21,10 +28,10 @@
         <!--Nav Bar-->
         <nav class="nav">
             <i class="uil uil-bars navOpenBtn"></i>
-            <img class="logo" src="/logo.png" alt="Logo">
+            <img class="logo" src="/Cópia de Texto do seu parágrafo.png">
             <ul class="nav-links">
                 <i class="uil uil-times navCloseBtn"></i>
-                <li>@Html.ActionLink("Inicio","Index","Home");</li>
+                <li>@Html.ActionLink("Inicio","Index","Home")</li>
                 <li>@Html.ActionLink("Contato","Contact","Home")</li>
                 <li>@Html.ActionLink("Sobre","AboutUs","Home")</li>
             </ul>
@@ -70,6 +77,13 @@
     <!-- Script Partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
     <script src="js/site.js"></script>
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/lib/lozad/lozad.min.js"></script>
+    <script src="/lib/device/device.js"></script>
+    <script src="/lib/spincrement/jquery.spincrement.min.js"></script>
+    <script src="/lib/pristine/pristine.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/forms.js"></script>
 </body>
 
 </html>

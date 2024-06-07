@@ -11,21 +11,21 @@
     <!-- CSS Styles -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="css/animation_cards_style.css">
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="~/css/animation_cards_style.css">
+    <link rel="stylesheet" href="~/css/site.css">
 </head>
 <body>
 <main>
     
-    <!--Nav Bar-->
+    <!-- Nav Bar -->
     <nav class="nav">
         <i class="uil uil-bars navOpenBtn"></i>
-        <img class="logo" src="/Cópia de Texto do seu parágrafo.png">
+        <img class="logo" src="~/images/your-logo.png" alt="Eco Wave Logo">
         <ul class="nav-links">
             <i class="uil uil-times navCloseBtn"></i>
-            <li>@Html.ActionLink("Inicio","Index","Home")</li>
-            <li>@Html.ActionLink("Contato","Contact","Home")</li>
-            <li>@Html.ActionLink("Sobre","AboutUs","Home")</li>
+            <li>@Html.ActionLink("Início", "Index", "Home")</li>
+            <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+            <li>@Html.ActionLink("Sobre", "AboutUs", "Home")</li>
         </ul>
         <i class="uil uil-search search-icon" id="searchIcon"></i>
         <div class="search-box">
@@ -33,9 +33,9 @@
             <input type="text" placeholder="Buscar..."/>
         </div>
     </nav>
-    <!--Nav Bar-->
+    <!-- Nav Bar -->
 
-    <!--Eco Wave -->
+    <!-- Eco Wave -->
     <div>
         <h1>Eco Wave</h1>
         <hr>
@@ -46,65 +46,51 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide swiper-slide--one">
                 <div>
-                    <h2>Jellyfish</h2>
-                    <p>Jellyfish and sea jellies are the informal common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa, a major part of the phylum Cnidaria.</p>
-                    <a href="https://en.wikipedia.org/wiki/Jellyfish" target="_blank">explore</a>
+                    <h2>Água-viva</h2>
+                    <p>Água-vivas e medusas são os nomes comuns informais dados à fase de medusa de certos membros gelatinosos do subfilo Medusozoa, uma parte importante do filo Cnidaria.</p>
+                    <a href="https://en.wikipedia.org/wiki/Jellyfish" target="_blank">explorar</a>
                 </div>
             </div>
             <div class="swiper-slide swiper-slide--two">
                 <div>
-                    <h2>Seahorse</h2>
-                    <p>
-                        Seahorses are mainly found in shallow tropical and temperate salt water throughout the world. They live in sheltered areas such as seagrass beds, estuaries, coral reefs, and mangroves. Four species are found in Pacific waters from North America to South America.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
+                    <h2>Cavalo-marinho</h2>
+                    <p>Cavalos-marinhos são encontrados principalmente em águas salgadas tropicais e temperadas rasas em todo o mundo. Eles vivem em áreas protegidas como leitos de ervas marinhas, estuários, recifes de corais e manguezais. Quatro espécies são encontradas em águas do Pacífico, da América do Norte à América do Sul.</p>
+                    <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explorar</a>
                 </div>
             </div>
-
             <div class="swiper-slide swiper-slide--three">
-
                 <div>
-                    <h2>octopus</h2>
-                    <p>
-                        Octopuses inhabit various regions of the ocean, including coral reefs, pelagic waters, and the seabed; some live in the intertidal zone and others at abyssal depths. Most species grow quickly, mature early, and are short-lived.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
+                    <h2>Polvo</h2>
+                    <p>Polvos habitam várias regiões do oceano, incluindo recifes de corais, águas pelágicas e o fundo do mar; alguns vivem na zona entre marés e outros em profundidades abissais. A maioria das espécies cresce rapidamente, amadurece cedo e tem vida curta.</p>
+                    <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explorar</a>
                 </div>
             </div>
-
             <div class="swiper-slide swiper-slide--four">
-
                 <div>
-                    <h2>Shark</h2>
-                    <p>
-                        Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
+                    <h2>Tubarão</h2>
+                    <p>Tubarões são um grupo de peixes elasmobrânquios caracterizados por um esqueleto cartilaginoso, cinco a sete fendas branquiais nas laterais da cabeça e barbatanas peitorais que não são fundidas à cabeça.</p>
+                    <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explorar</a>
                 </div>
             </div>
-
             <div class="swiper-slide swiper-slide--five">
-
                 <div>
-                    <h2>Dolphin</h2>
-                    <p>
-                        Dolphins are widespread. Most species prefer the warm waters of the tropic zones, but some, such as the right whale dolphin, prefer colder climates. Dolphins feed largely on fish and squid, but a few, such as the orca, feed on large mammals such as seals.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
+                    <h2>Golfinho</h2>
+                    <p>Golfinhos são amplamente distribuídos. A maioria das espécies prefere as águas quentes das zonas tropicais, mas alguns, como o golfinho-de-bico-de-garrafa, preferem climas mais frios. Os golfinhos se alimentam principalmente de peixes e lulas, mas alguns, como a orca, se alimentam de grandes mamíferos como focas.</p>
+                    <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explorar</a>
                 </div>
             </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
-    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="Jellyfish" class="bg">
+    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="Scallop" class="bg2">
 </main>
-<!--Eco Wave -->
+<!-- Eco Wave -->
 
 <!-- Script Partial -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-    <script src="js/animation_cards_script.js"></script>
-    <script src="js/site.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+<script src="~/js/animation_cards_script.js"></script>
+<script src="~/js/site.js"></script>
 </body>
 </html>
