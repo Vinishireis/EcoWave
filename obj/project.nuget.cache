@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5kFE4kf5u24avr4kHrmDM9ANP/QZ3mvPBQQ0YF0VGwdvm8Ahd3jsiBK6AVhJG5hNbjlKah+4VVzW339uZ5U42A==",
+  "dgSpecHash": "AWcqd67aLhk9Yg2szwH7AZ8qqOHcpDZSpET19snctv0xiqJFTzSVnbPUh2Lz3hqko+rvLTW2iQZyX83+UAYr3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS.csproj",
+  "projectFilePath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\EcoWave-GS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nishi\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\nishi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

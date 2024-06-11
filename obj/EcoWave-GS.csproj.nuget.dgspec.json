@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS.csproj": {}
+    "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\EcoWave-GS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS.csproj": {
+    "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\EcoWave-GS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS.csproj",
+        "projectUniqueName": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\EcoWave-GS.csproj",
         "projectName": "EcoWave-GS",
-        "projectPath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS.csproj",
+        "projectPath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\EcoWave-GS.csproj",
         "packagesPath": "C:\\Users\\nishi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\obj\\",
+        "outputPath": "C:\\Users\\nishi\\Downloads\\EcoWave-GS\\EcoWave-GS\\EcoWave-GS\\EcoWave\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
